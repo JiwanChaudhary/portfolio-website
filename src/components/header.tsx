@@ -24,7 +24,7 @@ const Header = () => {
               animate={{ y: 0, opacity: 1 }}
             >
               <Link
-                className="flex w-full items-center justify-center p-3 hover:text-gray-950 transition"
+                className="flex w-full items-center justify-center p-3 hover:text-gray-950 transition "
                 href={link.hash}
               >
                 {link.name}
