@@ -11,11 +11,11 @@ export default function Home() {
       <Intro />
       <SectionDivider />
       <About />
-      <SectionDivider />
+      {/* <SectionDivider /> */}
       <Projects />
-      <SectionDivider />
+      {/* <SectionDivider /> */}
       <Skills />
-      <SectionDivider />
+      {/* <SectionDivider /> */}
       <Contact />
     </main>
   );
