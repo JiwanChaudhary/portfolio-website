@@ -4,6 +4,7 @@ import "./globals.css";
 import Header from "@/components/header";
 import ActiveSectionConextProvider from "@/context/active-section-context";
 import { Toaster } from "react-hot-toast";
+import Footer from "@/components/footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -28,6 +29,7 @@ export default function RootLayout({
           <Header />
           {children}
           <Toaster position="top-right" />
+          <Footer />
         </ActiveSectionConextProvider>
       </body>
     </html>
