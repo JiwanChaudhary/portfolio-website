@@ -40,3 +40,8 @@ export default function RootLayout({
     </html>
   );
 }
+
+//@ts-ignore
+global.performance = global.performance || {
+  now: () => new Date().getTime(),
+};
