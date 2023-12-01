@@ -4,6 +4,7 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import ticTacToe from "../../public/tic-tac-toe.png";
 import eventBooking from "../../public/event-booking.png";
+import lipstick from "../../public/lipstick.png";
 // import wordanalyticsImg from "@/public/wordanalytics.png";
 
 export const links = [
@@ -58,18 +59,33 @@ export const links = [
 
 export const projectsData = [
   {
-    title: "Tic Tac Toe",
-    description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: ticTacToe,
-  },
-  {
     title: "Event Booking System",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "A platform to book different events in different venue as per their preferred date and time. User roles are defined. Admin can modify or see the details",
+    tags: [
+      "React",
+      "TypeScript",
+      "Next.js",
+      "Tailwind",
+      "Moment",
+      "Khalti",
+      "NodeMailer",
+    ],
     imageUrl: eventBooking,
+  },
+  {
+    title: "Cosmetics E-Commerce",
+    description:
+      "A E-commerce platform where the cosmetics items are available specially for girls, where they can filter the products of their choice and add it to the cart.",
+    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+    imageUrl: lipstick,
+  },
+  {
+    title: "Tic Tac Toe",
+    description:
+      "This is the simple Tic-Tac-Toe Game where two users can play the game and the game result of winning player is locally stored in the localStorage",
+    tags: ["React", "Next.js", "Tailwind"],
+    imageUrl: ticTacToe,
   },
   //   {
   //     title: "Word Analytics",
@@ -93,11 +109,6 @@ export const skillsData = [
   "Prisma",
   "MongoDB",
   "Redux",
-  "GraphQL",
-  "Apollo",
   "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
   "Framer Motion",
 ] as const;
