@@ -2,7 +2,7 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import ticTacToe from "../../public/tic-tac-toe.png";
+import ticTacToe from "../../public/jiwanTodo.jpeg";
 import eventBooking from "../../public/event-booking.png";
 import lipstick from "../../public/lipstick.png";
 // import wordanalyticsImg from "@/public/wordanalytics.png";
@@ -81,10 +81,10 @@ export const projectsData = [
     imageUrl: lipstick,
   },
   {
-    title: "Tic Tac Toe",
+    title: "TODO",
     description:
-      "This is the simple Tic-Tac-Toe Game where two users can play the game and the game result of winning player is locally stored in the localStorage",
-    tags: ["React", "Next.js", "Tailwind"],
+      "This is the todo app built using ReactJS in the frontend and dotnet core in the backend. For the database MySQL workbench has been used.",
+    tags: ["React", "Dotnet Core", "MySQL", "React Context"],
     imageUrl: ticTacToe,
   },
   //   {
@@ -103,12 +103,12 @@ export const skillsData = [
   "TypeScript",
   "React",
   "Next.js",
-  "Node.js",
+  "Dotnet Core",
   "Git",
   "Tailwind",
   "Prisma",
   "MongoDB",
   "Redux",
-  "Express",
+  "MySQL",
   "Framer Motion",
 ] as const;
