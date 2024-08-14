@@ -22,13 +22,12 @@ const About = () => {
       <SectionHeading heading="About Me" />
 
       <p>
-        Currently being in the last semester of{" "}
-        <span className=" font-bold">engineering</span>, I always had the
-        interest in the software industry field and self learing software
-        development. My favourite part of programming is the{" "}
+        I always had the interest in the software industry field and self
+        learing software development. My favourite part of programming is the{" "}
         <span className=" font-bold">problem-solving aspect.</span> My core
-        stack is <span className="font-bold">React.js and Next.js. </span>focusing on the <span className="font-bold">frontend development.</span> I am
-        also familiar with{" "}
+        stack is <span className="font-bold">React.js and Next.js. </span>
+        focusing on the <span className="font-bold">frontend development.</span>{" "}
+        I am also familiar with{" "}
         <span className=" font-bold">
           TypeScript, PostGRES, Prisma, Dotnet Core and MYSQL.
         </span>{" "}
